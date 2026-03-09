@@ -1,0 +1,28 @@
+{
+  "name": "maioth-gravity",
+  "version": "1.0.0",
+  "description": "Personal AI Agent with Telegram interface",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@grammyjs/hydrate": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.7.0",
+    "firebase-functions": "^7.1.0",
+    "grammy": "^1.30.0",
+    "groq-sdk": "^0.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.14.9",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+.env
+dist
+build
+service-account.json
+firebase-debug.log
+memory.db
+.DS_Store
+*.log
